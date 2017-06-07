@@ -42,5 +42,12 @@ Informasi diri:
 1. Nama: Alfan Diki
 1. Email: alfand91@gmail.com
 1. Batch: 10 (#jackfox)
+
+## Future plan
+
+Kedepannya akan ada penambahan:
+1. CMS 
+1. Responsive UI 
+1. Login User 
     
 
