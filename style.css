@@ -1,6 +1,6 @@
 * {
   font-family: "Slabo 27px", sans-serif;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 0px solid rgba(0, 0, 0, 0.3);
 }
 
 
@@ -24,7 +24,7 @@
   text-decoration: initial;
   height: auto;
   position: center;
-  margin: 10px;  
+  margin: 10px;
 }
 
 
