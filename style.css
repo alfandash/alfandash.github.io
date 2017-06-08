@@ -1,0 +1,90 @@
+* {
+  font-family: "Slabo 27px", sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+.menu-nav {
+  text-align: center;
+}
+
+.nav {
+  color: #D0E5DC;
+  border-radius: 5px;
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  height: 20px;
+  background: #3A403D;
+}
+
+.nav a {
+  color: #D0E5DC;
+  font-weight: bold;
+  text-decoration: initial;
+  height: auto;
+  position: center;
+  margin: 10px;  
+}
+
+
+section {
+  margin: auto;
+  background-color: lightgrey;
+  /* background: url("https://i.stack.imgur.com/GIHQn.jpg"); */
+  overflow: scroll;
+}
+
+h1 {
+  color: #3F403F;
+  font-size: 2.5em;
+  padding: 10px;
+  text-align: center;
+}
+
+h3 {
+  margin: 10px;
+  position: center;
+}
+
+h4 {
+  margin: 20px;
+  position: center;
+}
+
+article {
+  border-bottom: 1px solid #E5E4E4;
+  padding: 10px;
+}
+
+#article-list {
+  background-color: white;
+  margin: 0 auto 40px auto;
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+}
+
+a {
+  color: #03A4BF;
+  text-decoration: initial;
+}
+
+p {
+  margin: 10px;
+  position: center;
+}
+
+
+ul {
+  margin: 30px;
+  position: center;
+}
+
+
+footer {
+  padding: 10px;
+  background-color: #403F3F;
+  color: white;
+  text-align: center;
+}
