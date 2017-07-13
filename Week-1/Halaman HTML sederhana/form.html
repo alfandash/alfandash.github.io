@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="halaman - form.html">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>SignUp Form</title>
+</head>
+<body>
+  <div>
+    <h1> Buat Account Baru! </h1>
+    <h3> Sign Up Form</h3>
+    <form action="welcome.html" method="POST">
+      <p>
+        <label for="first-name">First Name</label><br>
+        <input id="first-name" name="first-name" type="text">
+      </p>
+      <p>
+        <label for="last-name">Last name</label><br>
+        <input id="last-name" name="last-name" type="text">
+      </p>
+      <p>
+        <label for="gender">Gender :</label><br>
+        <input id="gender-male" name="gender-male" value="male" type="radio">
+        <label for="gender-male">Male</label><br>
+        <input id="gender-female" name="gender-female" value="female" type="radio">
+        <label for="gender-female">Female</label><br>
+        <input id="gender-other" name="gender-other" value="other" type="radio">
+        <label for="gender-other">Other</label><br>
+      </p>
+      <p>
+        <label for="nationality">Nationality :</label><br>
+        <select name="nationality">
+          <option value="indonesia">Indonesian</option>
+          <option value="malaysia">Malaysian</option>
+          <option value="singapore">Singapore</option>
+          <option value="australian">Australian</option>
+        </select>
+      </p>
+      <p>
+        <label for="language">Language: </label><br>
+        <input id="language-indonesia" name="language-indonesia" value="indonesia" type="checkbox">
+        <label for="language-indonesia">Indonesia</label><br>
+        <input id="language-english" name="language-english" value="english" type="checkbox">
+        <label for="language-english">English</label><br>
+        <input id="language-other" name="language-other" value="other" type="checkbox">
+        <label for="language-other">Other</label>
+      </p>
+      <p>
+        <label for="bio">Bio: </label><br>
+        <textarea name="bio" cols="20" rows="10"></textarea><br>
+        <input type="submit" value="Sign up">
+      </p>
+    </form>
+  </div>  
+</body>
+</html>

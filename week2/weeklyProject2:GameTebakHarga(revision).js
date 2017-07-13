@@ -129,3 +129,4 @@ console.log('------------------------------------');
 lomba1.daftarPeserta(peserta,barang);
 console.log('-------------------------------------');
 lomba1.mencariPemenang(peserta,barang);
+lomba1.daftarBarang(barang);
