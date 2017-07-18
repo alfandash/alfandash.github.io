@@ -19,18 +19,25 @@
 
 function initialGrouping(studentsArr) {
   // Code hanya disini
-  let arr = studentsArr.sort();
-  let bucket = [];
-  for (var i = 0; i < arr.length-1; i++) {
-    if (i == 0) {
-      bucket.push(arr[i].charAt(0));
-    } else {
-      if(arr[i].charAt(0) !== arr[i-1].charAt(0)) {
-        bucket.push(arr[i].charAt(0));
-      }
+  var obj = {}
+  var firstLetter = []
+  studentsArr.map(function(item){
+    if (obj[item[0]] === undefined) {
+      obj[item[0]] = true
+      firstLetter.push(item[0])
     }
-  }
-  console.log(bucket);
+  })
+  //console.log(obj);r
+  //console.log(firstLetter);
+
+  var result = [];
+  firstLetter.map((item, index) => {
+    var temp = [item];
+    var filter = studentsArr.filter((isiArr) => {if(isiArr[0]==item)return true})
+    result.push(temp.concat(filter));
+  })
+
+  return result
 }
 
 console.log(initialGrouping(["Budi", "Badu", "Joni", "Jono"]));
