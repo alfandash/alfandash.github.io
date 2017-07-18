@@ -34,6 +34,5 @@ mainForm.addEventListener('submit', function(event){
         return alert('Email dan konfirmasi tidak sama');
       }
     }
-
   }
 })
